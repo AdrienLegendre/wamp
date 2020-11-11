@@ -12,7 +12,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #000000;
+	color: #FF0000;
 	background: url("./images/background.jpg");
 	background-attachment: fixed;
 	margin: 0 ;
@@ -52,7 +52,7 @@ Colours and backgrounds for links.css
 
 a { color: #000000; }
 a:hover { color: #000000; }
-a:focus { color: #2B4353; } 
+a:focus { color: #2B4353; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -104,29 +104,29 @@ a:focus { color: #2B4353; }
 	background-color: rgba(117, 77, 62, 0.5);
 	box-shadow: 0 0 15px 0 0 15px rgba(116, 92, 59, 0.6) inset, 0 0 5px rgba(0, 0, 0, 0.4) ;
 	border-color: #1B161D;
-	border: 2px solid rgba(0, 0, 0, 0.8); 
-	max-width: 80%;  	
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	max-width: 80%;
 	padding: 35px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	border-radius: 20px;
 }
 
 .headerbar {
-	background-color: transparent;	
+	background-color: transparent;
 	background-image: none;
 	float: none;
 	margin: 0 auto;
 	padding: 0px;
 	width: 100%;
-	
+
 }
 
 .forumbg {
-	background-color: #000; 
+	background-color: #000;
 	background-image: -webkit-linear-gradient(top, #bba99d 0px, #977a6a 40px);
-	background-image: linear-gradient(to bottom, #bba99d 0px, #977a6a 40px); 
+	background-image: linear-gradient(to bottom, #bba99d 0px, #977a6a 40px);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
-	border-radius: 5px 5px 0 0; 
+	border-radius: 5px 5px 0 0;
 	border-bottom : 1px solid #000 ;
 	border-left : 1px solid #000;
 	border-right : 1px solid #000 ;
@@ -138,7 +138,7 @@ a:focus { color: #2B4353; }
 	background-color: #E3DAC6 ;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
-	
+
 }
 
 table.table1 {
@@ -146,15 +146,15 @@ table.table1 {
     background-color: #E3DAC6 ;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
-	
+
 }
 
 .forabg {
-	background-color: #000; 
+	background-color: #000;
 	background-image: -webkit-linear-gradient(top, #bba99d 0px, #977a6a 40px);
-	background-image: linear-gradient(to bottom, #3c0707 0px, #79543b 40px); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */	
-	border-radius: 5px 5px 0 0; 
+	background-image: linear-gradient(to bottom, #3c0707 0px, #79543b 40px);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
+	border-radius: 5px 5px 0 0;
 	border-bottom : 1px solid #000 ;
 	border-left : 1px solid #000;
 	border-right : 1px solid #000 ;
@@ -165,12 +165,12 @@ table.table1 {
 
 
 .navbar {
-	background-color: #000; 
+	background-color: #000;
 	background-image: -webkit-linear-gradient(top, #bba99d  0px, #977a6a  40px);
-	background-image: linear-gradient(to bottom, #bba99d  0px, #977a6a 40px); 
+	background-image: linear-gradient(to bottom, #bba99d  0px, #977a6a 40px);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
-	
-	border-radius: 5px 5px 0 0; 
+
+	border-radius: 5px 5px 0 0;
 	border-bottom : 1px solid #000 ;
 	border-left : 1px solid #000;
 	border-right : 1px solid #000 ;
@@ -188,7 +188,7 @@ table.table1 {
 	border-right : 1px solid #000;
 	border-top : 1px solid #000;
 	border-radius: 1px;
-	
+
 }
 
 .post:target .content {
@@ -201,7 +201,7 @@ table.table1 {
 
 .bg1 {
 	background-color: transparent;
-	
+
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -210,7 +210,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 
 .bg2 {
 	background-color: transparent;
-	
+
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -219,7 +219,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-image: linear-gradient(to bottom, #E1C69F 20%,#D7B37D 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E1C69F', endColorstr='#D7B37D ',GradientType=0 ); /* IE6-9 */
 	color: #C0CFD6;
-	
+
 }
 
 .bg3	{
@@ -246,9 +246,9 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	width: 1000px;
 	height: 158px;
 	vertical-align: middle;
-	background-repeat: no-repeat ;	
+	background-repeat: no-repeat ;
 	 margin-top: 5px;
-	 margin-bottom: -17px; 
+	 margin-bottom: -17px;
 }
 
 #site-description {
@@ -366,7 +366,7 @@ dl.details dd {
 	background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #000000;
 	border-bottom : 1px solid #000;
 	border-left : 1px solid #000;
@@ -385,7 +385,7 @@ dl.details dd {
 	background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #C0CFD6;
 	border-bottom : 1px solid #000;
 	border-left : 1px solid #000;
@@ -402,7 +402,7 @@ dl.details dd {
 	background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #C0CFD6;
 	border-bottom : 1px solid #000;
 	border-left : 1px solid #000;
@@ -415,7 +415,7 @@ dl.details dd {
 	background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #000000;
 	border-bottom : 1px solid #000;
 	border-left : 1px solid #000;
@@ -432,10 +432,10 @@ dl.details dd {
 ---------------------------------------- */
 
 .copyright {
-	
-	color: #000000;	
+
+	color: #000000;
 	 max-width: 60%;
-   
+
 	margin: 5px auto;
 
 }
@@ -478,7 +478,7 @@ ul.forums {
 	border-top : 1px solid #000;
     box-shadow: 0 0 25px rgba(126, 7, 7, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -490,7 +490,7 @@ ul.topics {
 	border-top : 1px solid #000;
     box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -563,9 +563,9 @@ li.header dt, li.header dd {
 	border-top : 1px solid #000;
    box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 5px;
-	margin: 0px 0px 5px 0px; 
+	margin: 0px 0px 5px 0px;
 	padding: 5px;
 }
 
@@ -768,7 +768,7 @@ fieldset.polls dd div {
 	border-top : 1px solid #000;
     box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -814,7 +814,7 @@ Colours and backgrounds for buttons.css
 	 background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	-webkit-box-shadow: 0 0 0 0px #CEA260 inset;
 	color: #000000;
 }
@@ -900,7 +900,7 @@ Colours and backgrounds for buttons.css
 	box-shadow: 0 0 10px #5D7E8F;
 	margin-top: -30px;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 }
 
 /* Icon images
@@ -1017,7 +1017,7 @@ ul.cplist {
 	background-color: #E3DAC6 ;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #000000;
 	border-bottom : 1px solid #000 ;
 	border-left : 1px solid #000;
@@ -1027,12 +1027,12 @@ ul.cplist {
 }
 
 .tabs .tab > a:hover {
-	background-color: #000; 
+	background-color: #000;
 	background-image: -webkit-linear-gradient(top, #E7D9C0 0%, #DAC59E 50%);
-	background-image: linear-gradient(to bottom, #E7D9C0 0%,#DAC59E 50%); 	
+	background-image: linear-gradient(to bottom, #E7D9C0 0%,#DAC59E 50%);
 	color: #000000;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 }
 
 .tabs .activetab > a,
@@ -1044,7 +1044,7 @@ ul.cplist {
 	border-top : 1px solid #000;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -1096,7 +1096,7 @@ ul.cplist {
 	border-top : 1px solid #000;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -1204,7 +1204,7 @@ select {
 	 background-color: #E3DAC6 ;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3);
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	color: #000;
 }
 
@@ -1240,7 +1240,7 @@ fieldset.quick-login input.inputbox {
 	background-color: #E3DAC6 ;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	 border-radius :5px ;
 }
 
@@ -1302,7 +1302,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	background: #E3DAC6 none repeat scroll 0 0 ;
 	box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 }
 
 a.button1, input.button1 {
@@ -1387,7 +1387,7 @@ input.disabled {
 	border-top : 1px solid #000;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -1411,7 +1411,7 @@ input.disabled {
 	border-top : 1px solid #000;
      box-shadow: 0 0 25px rgba(62, 40, 30, 0.6) inset, 0 0 10px rgba(0, 0, 0, 0.3) ;
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0E7D5', endColorstr='#F0E7D5',GradientType=0 ); /* IE6-9 */
-	
+
 	border-radius: 1px;
 }
 
@@ -1444,7 +1444,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 }
 
 
-	
+
 /* Forum list column styles */
 .row .list-inner { padding: 1px 0; }
 
@@ -1515,7 +1515,7 @@ Ul.topiclist li.row dl {
 margin: 1px 5px;
 
 padding: 1px;
-} 
+}
 
 .forumbg .header a, .forabg .header a, th a {
    color: #000000;
@@ -1524,7 +1524,7 @@ padding: 1px;
 
 .dropdown-contents a:hover {
 color: #000;
-} 
+}
 
 @media only screen and (min-width: 290px), only screen and (min-device-width: 290px) {
 	.wrap {
@@ -1540,7 +1540,7 @@ color: #000;
 	display: inline-block;
 	width: 200px;
 	height: 80px;
-	
+
 	}
 
 	.logo {
@@ -1548,7 +1548,7 @@ color: #000;
 	display: block;
 	float: none;
 	padding: 10px;
-	
+
 	}
 
 	.postprofile .avatar img {
@@ -1557,4 +1557,3 @@ color: #000;
     max-height: 46px;
 	}
 }
-
