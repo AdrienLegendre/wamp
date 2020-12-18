@@ -152,7 +152,7 @@ table.table1 {
 .forabg {
 	background-color: #000;
 	background-image: -webkit-linear-gradient(top, #260701 0px, #260701 40px);
-	background-image: linear-gradient(to bottom, #1f1612 0px, #260c07 40px);
+	background-image: linear-gradient(to bottom, #302520 0px, #211711 40px);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
 	border-radius: 5px 5px 0 0;
 	border-bottom : 1px solid #000 ;
@@ -471,7 +471,7 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-    background: #1d1412 none repeat scroll 0 0;
+    background: #312622 none repeat scroll 0 0;
     border-bottom : 1px solid #000;
 	border-left : 1px solid #000;
 	border-right : 1px solid #000;
