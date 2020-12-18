@@ -52,15 +52,15 @@ Colours and backgrounds for links.css
 
 a { color: #e6ccb2; }
 a:hover { color: #b08968; }
-a:focus { color: #cb997e; }
+a:focus { color: #2B4353; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
-    color: #000000;
+    color: #b08968;
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: #334E5B;
+	color: #b08968;
 }
 
 /* Notification mark read link */
