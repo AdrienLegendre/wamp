@@ -151,8 +151,8 @@ table.table1 {
 
 .forabg {
 	background-color: #000;
-	background-image: -webkit-linear-gradient(top, #bba99d 0px, #977a6a 40px);
-	background-image: linear-gradient(to bottom, #8a5a44 0px, #774936 40px);
+	background-image: -webkit-linear-gradient(top, #2f0e07 0px, #38160d 40px);
+	background-image: linear-gradient(to bottom, #38160d 0px, #4a2419 40px);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bba99d', endColorstr='#977a6a',GradientType=0 ); /* IE6-9 */
 	border-radius: 5px 5px 0 0;
 	border-bottom : 1px solid #000 ;
