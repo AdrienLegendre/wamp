@@ -12,7 +12,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #FFFF00;
+	color: #00FF00;
 	background: url("./images/background.jpg");
 	background-attachment: fixed;
 	margin: 0 ;
@@ -21,7 +21,7 @@ html, body {
 }
 
 h1 {
-	color: #FF00FF;
+	color: #FF0000;
 }
 
 h2 {
